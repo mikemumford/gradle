@@ -1,0 +1,51 @@
+Downloading https://services.gradle.org/distributions/gradle-8.6-rc-1-bin.zip
+............10%.............20%............30%.............40%.............50%............60%.............70%.............80%............90%.............100%
+
+Welcome to Gradle 8.6-rc-1!
+
+Here are the highlights of this release:
+ - Support for running on Java 21
+ - Faster first use with Kotlin DSL
+ - Improved error and warning messages
+
+For more details see https://docs.gradle.org/8.6-rc-1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+Calculating task graph as no cached configuration is available for tasks: :
+Type-safe project accessors is an incubating feature.
+> Task :build-logic-commons:gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :build-logic-commons:basics:checkKotlinGradlePluginConfigurationErrors
+> Task :build-logic-commons:module-identity:checkKotlinGradlePluginConfigurationErrors
+> Task :build-logic-commons:module-identity:extractPrecompiledScriptPluginPlugins FROM-CACHE
+> Task :build-logic-commons:module-identity:generateScriptPluginAdapters FROM-CACHE
+> Task :build-logic-commons:gradle-plugin:extractPrecompiledScriptPluginPlugins FROM-CACHE
+> Task :build-logic-commons:module-identity:pluginDescriptors
+> Task :build-logic-commons:module-identity:processResources
+> Task :build-logic-commons:gradle-plugin:generateScriptPluginAdapters FROM-CACHE
+> Task :build-logic-commons:gradle-plugin:pluginDescriptors
+> Task :build-logic-commons:gradle-plugin:processResources
+> Task :build-logic-commons:basics:generateExternalPluginSpecBuilders FROM-CACHE
+> Task :build-logic-commons:basics:extractPrecompiledScriptPluginPlugins FROM-CACHE
+> Task :build-logic-commons:basics:compilePluginsBlocks FROM-CACHE
+> Task :build-logic-commons:basics:generatePrecompiledScriptPluginAccessors FROM-CACHE
+> Task :build-logic-commons:basics:generateScriptPluginAdapters FROM-CACHE
+> Task :build-logic-commons:basics:compileKotlin FROM-CACHE
+> Task :build-logic-commons:basics:compileJava NO-SOURCE
+> Task :build-logic-commons:basics:pluginDescriptors
+> Task :build-logic-commons:basics:processResources
+> Task :build-logic-commons:basics:classes
+> Task :build-logic-commons:basics:jar
+> Task :build-logic-commons:module-identity:generateExternalPluginSpecBuilders FROM-CACHE
+> Task :build-logic-commons:module-identity:compilePluginsBlocks FROM-CACHE
+> Task :build-logic-commons:module-identity:generatePrecompiledScriptPluginAccessors FROM-CACHE
+> Task :build-logic-commons:module-identity:compileKotlin FROM-CACHE
+> Task :build-logic-commons:module-identity:compileJava NO-SOURCE
+> Task :build-logic-commons:module-identity:classes
+> Task :build-logic-commons:module-identity:jar
+> Task :build-logic-commons:gradle-plugin:generateExternalPluginSpecBuilders FROM-CACHE
+> Task :build-logic-commons:gradle-plugin:compilePluginsBlocks FROM-CACHE
+> Task :build-logic-commons:gradle-plugin:generatePrecompiledScriptPluginAccessors FROM-CACHE
+> Task :build-logic-commons:gradle-plugin:compileKotlin FROM-CACHE
+> Task :build-logic-commons:gradle-plugin:compileJava NO-SOURCE
+> Task :build-logic-commons:gradle-plugin:classes
+> Task :build-logic-commons:gradle-plugin:jar
